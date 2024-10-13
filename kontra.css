@@ -62,7 +62,7 @@
 
 .homepage{
     height:1000px;
-    background-image: url(../kontrasite/images/lokacija.png..jpg);
+    background-image: url(./images/lokacija.jpg);
     background-repeat: no-repeat;
     
     background-size: cover;
@@ -185,7 +185,7 @@
  }
 .lokacija-kontakt-termini{
   color: white;
-    background-image: url(../kontrasite/images/lokacijabackground.jpg);
+    background-image: url(./images/lokacijabackground.jpg);
     height:700px;
     width: 1000px;
     display:flex;
