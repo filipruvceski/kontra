@@ -1,0 +1,226 @@
+*{
+   margin:0%;
+   padding: 0%;
+}
+
+.pre-header{
+    background-color: #202020;
+   height:80px;
+   position: sticky;
+   padding: 0 20px;
+   top:0%;
+   z-index:2;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+
+
+
+   ul{
+   
+    text-align: center;
+
+    display:flex;
+      }
+
+
+   .logokontra img{
+   
+    height:60px;
+    width:60px;
+     border-radius: 15%;
+   }
+
+
+}
+
+
+
+.pre-header ul li{
+    text-transform: uppercase;
+    list-style:none;
+    display: inline-flex;
+    margin:4px;
+    font-style: Arial, sans-serif;
+  
+}
+
+.pre-header ul li a{
+    text-decoration: none;
+    color: #693f3a;
+    font-family: 'poppins',sans-serif ;
+    font-weight: 700;
+    
+   
+}
+
+.nav-item-element{
+    display: flex;
+    align-items: center;
+}
+
+.homepage{
+    height:1000px;
+    background-image: url(../kontrasite/images/lokacija.png..jpg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+}
+    .o-nama-text{
+        width: 40vw;
+    }
+     .o-nama{
+
+        background-color:#202020;
+        height: calc(100vh - 80px);
+
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+
+        .community img{
+          height:70vh;
+          border-radius:15%;
+         
+          display: flex;
+        
+        }
+
+
+        /* osnovan 2021. */
+        p6{
+            color:white;
+            font-size: 70px;
+            display:block;
+           
+        }
+       /* community */
+        p7{
+            color:white;
+     
+            display: block;
+           
+            font-size: 32px;
+
+        }
+
+
+
+        /* naslov-treneri */
+        
+        h2{ 
+            color:white;
+            font-size: 100px;
+            text-transform: uppercase;
+            margin-top: 200px;
+            margin-left: 600px;
+        }
+
+
+        /* Nemanja Skoric */
+        p2{
+            color:white;
+            font-size: 100px;
+          
+            margin-top:200px;
+            margin-left: 150px;
+            display:inline-block
+
+            
+        }
+
+        /* Nemanja Skoric Opis */
+        p3{ 
+            color:white;
+            font-size:40px;
+        
+            margin-top: 60px;
+            margin-left: 150px;
+            margin-right:800px;
+            display: inline-block
+
+        }
+
+        .nemanja-character img {
+            width:500px;
+            height:500px;
+            margin-left:1000px;
+            margin-top: -360px; 
+            border-radius: 15%;
+
+        }
+
+        /* uros petrovic */
+        p4{
+            color:white;
+            font-size: 100px;
+            margin-top:200px;
+            margin-left: 800px;
+            display:block;
+            margin-right: 150px;
+        }
+
+        /* uros petrovic opis */
+        p5{
+            color:white;
+            font-size:40px;
+            display:block;
+            margin-top:50px;
+            margin-left:800px;
+           margin-right:150px;
+     }
+
+     .uros-character img{
+            width:500px;
+            height:500px;
+            border-radius: 15%;
+            margin-top: -350px;
+            margin-left:150px;
+
+     }
+ }
+.lokacija-kontakt-termini{
+  color: white;
+    background-image: url(../kontrasite/images/lokacijabackground.jpg);
+    height:700px;
+    width: 1000px;
+    display:flex;
+    background-repeat: no-repeat;
+    margin-top:150px;
+    margin-left:350px;
+    border-radius: 15%;
+}
+
+
+ .box{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 400px;
+    height: 600px;
+    display: block;
+    border-radius: 15%;
+    margin-left:40px;
+    margin-top: 50px;
+   
+}
+  
+ .box2{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 400px;
+    height: 600px;
+    display: block;
+    border-radius: 15%;
+    margin-left:120px;
+    margin-top: 50px;
+   
+}
+
+/* p{
+    text-align: center; /* Centriranje teksta */
+    /* margin: 10px 0; /* Razmak između paragrafa */
+    /* display: block; */ *
+
+ /* } */
